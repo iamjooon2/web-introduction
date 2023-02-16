@@ -130,14 +130,14 @@
       <h2>방명록</h2>
       <div> 성함 :  <input type= "text" id = "name"/> </div> <br>
       <div> 본인의 취향 영화는?</div>
-      <input type = "radio" id = "movie" value = "incepction"> 인셉션 </input>
-      <input type = "radio" id = "movie" value = "tazza"> 타짜 </input>
-      <input type = "radio" id = "movie" value = "good_will_hunting"> 굿 윌 헌팅 </input>
-      <input type = "radio" id = "movie" value = "lala_land"> 라라랜드 </input>
-      <input type = "radio" id = "movie" value = "coco"> 코코 </input>
+      <input type = "checkbox" name = "check" value = "incepction"> 인셉션 </input>
+      <input type = "checkbox" name = "check" value = "tazza"> 타짜 </input>
+      <input type = "checkbox" name = "check" value = "good_will_hunting"> 굿 윌 헌팅 </input>
+      <input type = "checkbox" name = "check" value = "lala_land"> 라라랜드 </input>
+      <input type = "checkbox" name = "check" value = "coco"> 코코 </input>
       <br>
-      <button id = "submit" type = "submit"> 결과 확인하기 </button>
-      <button id = "clear" type = "reset"> 취소하기 </button>
+      <button id = "submit" type = "submit" onclick="register()"> 결과 확인하기 </button>
+      <button id = "clear" type = "reset" onclick="reset()"> 취소하기 </button>
     </div>
   </div>
   <script type = "text/javascript" src="../js/script.js"></script>
