@@ -1,0 +1,60 @@
+body {
+  background-color: #EFEFEF;
+}
+
+.show-form {
+  width: 1200px;
+  margin: 50px auto;
+  font-size: 15px;
+}
+
+.show-form .container {
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+  color: #4a4a4a;
+  display: block;
+  padding: 1.25rem;
+}
+.show-form h2 {
+  margin: 0 0 15px;
+  font-size: 1.5rem;
+}
+.form-control, .btn {
+  min-height: 38px;
+  border-radius: 2px;
+}
+.btn {
+  font-size: 15px;
+  font-weight: bold;
+}
+.showbox {
+  background-color: white;
+  border: black;
+  text-align: center;
+}
+.showbox-stocks {
+  background-color: white;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  border: black;
+  display: flex;
+  flex-direction: row;
+
+}
+h1{
+  text-align: center;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 1.5rem;
+}
+
+img {
+  width: 150px;
+  height: 200px;
+}
